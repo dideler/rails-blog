@@ -32,6 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Use a more useful error page.
+gem 'better_errors'
+
+# Use a more concise templating language than ERB.
+gem 'haml'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
