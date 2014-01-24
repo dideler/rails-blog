@@ -50,11 +50,11 @@ class PostsController < ApplicationController
   end
 
   private
+
   def post_params
     params.require(:post).permit(:title, :text)
   end
 
-  private
   def show_params
     render text: params[:post].inspect  # Displays params hash
   end
